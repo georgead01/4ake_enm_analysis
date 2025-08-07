@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+# VMDLauncher
+# Purpose: start VMD from within a Terminal.app session
+p="$(dirname "$0")"
+open /System/Applications/Utilities/Terminal.app "${p}/startup.command"
+
